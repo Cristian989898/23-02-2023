@@ -1,0 +1,79 @@
+body{
+   
+    text-align: center;
+    
+    
+}
+ul{
+    display: grid;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+}
+.divisore{
+    
+    background-color:rgba(253,251,241,255);
+}
+.descrizione{
+    text-align: center;
+    padding-bottom:20px ;
+    font-size: 10px;
+    color: #26999b;
+}
+.logo{
+    
+    width: 181px;
+    height: 55px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.focaccia{
+    
+    width: 360px;
+    height: 240px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    
+    box-shadow: 1px 1px;
+   
+}
+.bordo{
+    background-color: rgba(253,251,241,255);
+    
+}
+hr{
+    
+    height: 2px; 
+    color: #ffdb82;
+     background-color:#ffdb82;
+     border: none;
+}
+.titolofocaccia{
+    text-align: center;
+    font-size: 25px;
+    color: rgba(51,51,50,255);
+}
+.link{
+    text-decoration: none;
+}
+
+.descrizioneimmagine{
+    opacity: 0.5px;
+    font-size: 10px;
+}
+.descrizionetitolo{
+    font-size: 10px;
+    text-align: center;
+}
+
+.fea{
+    border-left-style: solid;
+    border-color:#d2b210;
+    margin-left: 0px;
+    padding-left: 10px;
+    border-left: center;
+}
