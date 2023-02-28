@@ -1,79 +1,147 @@
-body{
+
+
+ul {
    
+   display: grid;
+   align-items: left;
+   justify-content: left;
+   margin-left: 430px;
+    font-size: 10px;
+}
+
+
+    .divisore {
+
+        background-color: rgba(253, 251, 241, 255);
+        padding-bottom: 0px;
+        margin-bottom:0px ;
+    }
+
+
+.descrizione {
     text-align: center;
-    
-    
-}
-ul{
-    display: grid;
-            justify-content: center;
-            align-items: center;
-            font-size: 15px;
-}
-.divisore{
-    
-    background-color:rgba(253,251,241,255);
-}
-.descrizione{
-    text-align: center;
-    padding-bottom:20px ;
+    padding-bottom: 20px;
     font-size: 10px;
     color: #26999b;
-}
-.logo{
     
+    
+}
+
+.logo {
+
     width: 181px;
     height: 55px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-   
+
 }
-.focaccia{
-    
+
+.focaccia {
+
     width: 360px;
     height: 240px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    
+
     box-shadow: 1px 1px;
-   
+
 }
-.bordo{
-    background-color: rgba(253,251,241,255);
-    
+
+.bordo {
+    background-color: rgba(253, 251, 241, 255);
+
 }
-hr{
-    
-    height: 2px; 
+
+hr {
+
+    height: 2px;
     color: #ffdb82;
-     background-color:#ffdb82;
-     border: none;
+    background-color: #ffdb82;
+    border: none;
 }
-.titolofocaccia{
+
+.titolofocaccia {
     text-align: center;
     font-size: 25px;
-    color: rgba(51,51,50,255);
+    font-weight: 400px;
+    color: rgba(51, 51, 50, 255);
 }
-.link{
+
+.link {
     text-decoration: none;
 }
 
-.descrizioneimmagine{
+.descrizioneimmagine {
     opacity: 0.5px;
-    font-size: 10px;
-}
-.descrizionetitolo{
     font-size: 10px;
     text-align: center;
 }
 
-.fea{
+.descrizionetitolo {
+    font-size: 10px;
+    text-align: center;
+}
+
+.fea {
+    width: 300px;
+    margin-left: 425px;
+    text-align: center;
     border-left-style: solid;
-    border-color:#d2b210;
-    margin-left: 0px;
-    padding-left: 10px;
+    border-color: #d2b210;
+   
     border-left: center;
+}
+.ultimo{
+    font-size: 10px;
+    
+    text-align: left;
+    margin-left: 470px;
+}
+#linea{
+    background: #e7fafa;
+    
+    width: 300px;
+    text-align: center;
+}
+#feature{
+    padding-left: 5px;
+    text-align: left;
+   font-size: 15px;
+    color: #d2b210;
+}
+#i{
+    text-align: center;
+}
+#tl{
+    font-size: 12px;
+    text-align: left;
+    width: 300px;
+    margin-left: 450px;
+}
+#x{
+    font-size: 15px;
+}
+im{
+    text-align: left;
+    width: 300px;
+    font-size: 18px;
+    margin-left: 450px;
+}
+#metodo{
+    font-size: 20px;
+    margin-left: 450px;
+    margin-bottom: 0px;
+}
+#make{
+    font-size: 14px;
+    margin-left: 450px;
+    margin-bottom: 0px;
+}
+#read{
+    display: flex;
+    margin-left: 450px;
+    font-size: 10px;
 }
